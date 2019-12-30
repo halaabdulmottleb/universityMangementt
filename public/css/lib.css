@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Philosopher|Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+body {
+    background-color: #f2f2f2;
+    background-attachment: fixed;
+    max-width: 100%;
+}
+
+.main {
+    min-height: 350px;
+    display: flex;
+    align-items: center;
+}
+
+label {
+    margin: 0 !important;
+    display: block;
+    font-weight: 700;
+    transform: translate(0, -2.75rem);
+}
+
+@supports (not (-ms-ime-align:auto)) {
+    label {
+        color: #757575;
+        transform: translate(0.25rem, -1.9rem);
+        transition: all 0.2s ease-out;
+    }
+
+    input:not(:placeholder-shown)+label {
+        color: #111;
+        padding: 0 !important;
+        transform: translate(0, -4rem);
+    }
+}
+
+.form-control:focus {
+    box-shadow: none !important;
+}
+
+button {
+    transition: 500ms ease !important;
+}
+.invalid-feedback {
+    display: block !important;
+    width: auto !important;
+    margin-top: .25rem;
+    font-size: 80%;
+    color: #dc3545;
+    position: absolute;
+    left: 0;
+    padding-left: 1.3rem;
+    top: 35px;
+}
+/* table */
+.search {
+  padding-bottom: .5rem !important;
+}
+
+.search label {
+  top: 28%;
+  left: 10px;
+  margin: 0;
+  text-shadow: none;
+  color: #adadad !important;
+  font-size: smaller;
+  transform: translate(0,0) !important;
+}
+
+.search .search-input {
+  box-shadow: 0 0 10px #e1e1e1e3;
+  padding-left: 30px;
+}
+.main-table{
+  padding: 1rem 0;
+}
+
+/* main content */
+.main-content {
+    width: 100%;
+    overflow: auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+.content .header {
+    border-bottom: 1px solid #222b3a1a;
+    overflow: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* table */
+table {
+    background: white;
+    border-radius: 5px;
+}
+
+.table thead th {
+    border-top: 0;
+}
+
+.table td {
+    border: 0;
+}
+
+.table td a {
+    color: #1c3053;
+    text-decoration: none;
+}

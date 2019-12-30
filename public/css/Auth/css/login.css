@@ -1,0 +1,82 @@
+*{
+    margin:  0px;
+    padding: 0px;
+}
+#login {
+ 
+    background-size: cover;   
+    font-family: 'roboto' , sans-serif;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+    url(../../image/computer_keyboard_mouse_laptop_mac_apple_66734_1920x1080.jpg)  
+       ;
+       background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center bottom ;
+   
+}
+    
+ 
+
+.login-section {
+    margin: 0 auto;
+    padding: 0;
+    margin-top: 140px ;
+     
+}
+
+.model-content{
+    background: rgba(0, 0, 0, 0.6);
+    padding: 50px 40px;
+    box-shadow: 0px 0px 2px #848484;
+    border-radius: 5px;
+}
+ 
+.form-group{
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn {
+    width: 150px;   
+    height: 45px;
+    font-size: 21px;
+    border-radius: 5px;
+    border-bottom: 4px ;
+}
+
+.users{
+    font-size:18px ;
+    color: rgb(243, 247, 252);
+    margin: 4px;
+}
+.links {
+margin-left: 20px ;
+}
+.uni{
+    margin-top: 200px;
+    
+  
+}
+
+.edit{
+    color: white;
+    margin-right: 10px;
+}
+
+h1 {
+    
+ 
+    margin-bottom: 0;
+    font-size: 43px;
+    color:white; 
+    text-shadow: -1px 0 black, 0 1px black, .5px 0 white, 0 -1px wheat; 
+}
+
+h3 {
+    
+    margin-bottom: 0;
+     font-size: 25px; 
+    padding-top: 20px ;
+    color:white; 
+    /* text-shadow: -1px 0 black, 0 .5px black, .5px 0 white, 0 -1px white;  */
+}
